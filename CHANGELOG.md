@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.8.0...v1.9.0) (2024-07-03)
+
+
+### Features
+
+* add .cargo ([d946fc8](https://github.com/47vigen/docker-tauri-windows/commit/d946fc8d127c329cafcb6c44e8d3f291daa1f981))
+
 # [1.8.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.7.0...v1.8.0) (2024-07-03)
 
 
