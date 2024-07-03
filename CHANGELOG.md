@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.0.0...v1.1.0) (2024-07-03)
+
+
+### Features
+
+* add publish ([e64d834](https://github.com/47vigen/docker-tauri-windows/commit/e64d834139608668273763339544d2c2e0061a79))
+* release ([f735448](https://github.com/47vigen/docker-tauri-windows/commit/f735448931cd4a0cc427b35af9cf5f885b45500c))
+
 # 1.0.0 (2024-07-03)
 
 
