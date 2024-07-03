@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.4.0...v1.5.0) (2024-07-03)
+
+
+### Features
+
+* resolve ([95b3486](https://github.com/47vigen/docker-tauri-windows/commit/95b34867eb6bf7482bf5f58ec068e9377d53f6ff))
+
 # [1.4.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.3.0...v1.4.0) (2024-07-03)
 
 
