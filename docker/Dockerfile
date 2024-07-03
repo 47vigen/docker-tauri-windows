@@ -37,3 +37,7 @@ WORKDIR /project
 # Set up xwin (adjust paths as necessary)
 RUN mkdir /root/.xwin
 RUN xwin --accept-license splat --output /root/.xwin || xwin --accept-license splat --output /root/.xwin --disable-symlinks 
+
+# Configure pnpm
+RUN npm i -g pnpm
+RUN pnpm config set store-dir .pnpm-store
