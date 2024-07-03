@@ -12,11 +12,18 @@ RUN apt-get update && apt-get install -y \
   nsis \
   llvm \
   curl \
+  wget \
+  file \
   unzip \
   mingw-w64 \
   apt-utils \
+  libxdo-dev \
+  libssl-dev \
+  librsvg2-dev \
   ca-certificates \
   build-essential \
+  libwebkit2gtk-4.1-dev \
+  libayatana-appindicator3-dev \
   && rm -rf /var/lib/apt/lists/*
 
 # Install Rust
