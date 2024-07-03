@@ -1,3 +1,11 @@
+# [1.4.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.3.0...v1.4.0) (2024-07-03)
+
+
+### Features
+
+* add environment ([0736d07](https://github.com/47vigen/docker-tauri-windows/commit/0736d07818d0edf58fcd33cf5c7d4331193a5326))
+* use secrets ([4145779](https://github.com/47vigen/docker-tauri-windows/commit/414577958b802a391434e15edc21ba40144f7d03))
+
 # [1.3.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.2.0...v1.3.0) (2024-07-03)
 
 
