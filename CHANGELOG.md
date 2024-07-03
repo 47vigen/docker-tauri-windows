@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/47vigen/docker-tauri-windows/compare/v1.1.0...v1.1.1) (2024-07-03)
+
+
+### Bug Fixes
+
+* publish ([a097f5a](https://github.com/47vigen/docker-tauri-windows/commit/a097f5af08240d2ea873a7f992143efb0f489061))
+
 # [1.1.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.0.0...v1.1.0) (2024-07-03)
 
 
