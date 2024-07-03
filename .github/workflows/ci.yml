@@ -7,7 +7,7 @@ on:
     branches:
       - "main"
     tags:
-      - "v*.*.*"
+      - "v*"
   workflow_dispatch:
   pull_request:
 
@@ -34,7 +34,7 @@ jobs:
             47vigen/docker-tauri-windows
           # generate Docker tags based on the following events/attributes
           tags: |
-            type=schedule
+            type=schedule,pattern=nightly
             type=ref,event=branch
             type=ref,event=pr
             type=semver,pattern={{version}}
