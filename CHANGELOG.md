@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.1.1...v1.2.0) (2024-07-03)
+
+
+### Features
+
+* add workflow_dispatch ([100f4a4](https://github.com/47vigen/docker-tauri-windows/commit/100f4a475e110af6ae358a0509d4eebfedd88f10))
+
 ## [1.1.1](https://github.com/47vigen/docker-tauri-windows/compare/v1.1.0...v1.1.1) (2024-07-03)
 
 
