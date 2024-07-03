@@ -1,10 +1,11 @@
-name: bump
+name: Bump
 on:
   push:
     branches:
       - main
 jobs:
   main:
+    name: Bump
     runs-on: ubuntu-latest
     environment:
       name: Semver
