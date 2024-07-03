@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.5.0...v1.6.0) (2024-07-03)
+
+
+### Features
+
+* add checkout ([44bb04c](https://github.com/47vigen/docker-tauri-windows/commit/44bb04cb913398cd8fd7799202abe662bc3806eb))
+
 # [1.5.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.4.0...v1.5.0) (2024-07-03)
 
 
