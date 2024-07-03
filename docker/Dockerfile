@@ -41,8 +41,15 @@ RUN cargo install xwin
 # Set the WORKDIR to your project directory
 WORKDIR /project
 
+# Ensure .cargo folder exists
+RUN mkdir -p .cargo
+
+# Set up the Rust toolchain to use the installed tools
+RUN echo '[target.x86_64-pc-windows-msvc]\nlinker = "lld"\nrustflags = ["-Lnative=/root/.xwin/crt/lib/x86_64", "-Lnative=/root/.xwin/sdk/lib/um/x86_64", "-Lnative=/root/.xwin/sdk/lib/ucrt/x86_64"]' > .cargo/config.toml
+
+
 # Set up xwin (adjust paths as necessary)
-RUN mkdir /root/.xwin
+RUN mkdir -p /root/.xwin
 # RUN xwin --accept-license splat --output /root/.xwin || xwin --accept-license splat --output /root/.xwin --disable-symlinks 
 RUN xwin --accept-license splat --output /root/.xwin --disable-symlinks 
 
