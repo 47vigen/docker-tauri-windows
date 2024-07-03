@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.9.0...v1.10.0) (2024-07-03)
+
+
+### Features
+
+* enable-symlinks ([3165bc9](https://github.com/47vigen/docker-tauri-windows/commit/3165bc96e1f7dc6c773b9ada3d6aa00127e6ddfa))
+
 # [1.9.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.8.0...v1.9.0) (2024-07-03)
 
 
