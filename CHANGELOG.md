@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.6.0...v1.7.0) (2024-07-03)
+
+
+### Features
+
+* disable-symlinks ([72e4e7b](https://github.com/47vigen/docker-tauri-windows/commit/72e4e7ba18254dba6a9ef7f8d4bf0203f58bce85))
+
 # [1.6.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.5.0...v1.6.0) (2024-07-03)
 
 
