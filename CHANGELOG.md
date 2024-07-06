@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.13.0...v1.14.0) (2024-07-06)
+
+
+### Features
+
+* run after any tag ([b1d919b](https://github.com/47vigen/docker-tauri-windows/commit/b1d919b809f162ead71647b8afb35f6c6224492a))
+
 # [1.13.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.12.0...v1.13.0) (2024-07-06)
 
 
