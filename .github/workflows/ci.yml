@@ -25,6 +25,9 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v4
 
+      - name: Log event details
+        run: "echo Event: ${{ toJSON(github.event) }}"
+
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v5

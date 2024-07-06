@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install -y \
   apt-utils \
   libxdo-dev \
   libssl-dev \
+  libudev-dev \
   librsvg2-dev \
   ca-certificates \
   build-essential \
@@ -46,7 +47,6 @@ RUN mkdir -p .cargo
 
 # Set up the Rust toolchain to use the installed tools
 RUN echo '[target.x86_64-pc-windows-msvc]\nlinker = "lld"\nrustflags = ["-Lnative=/root/.xwin/crt/lib/x86_64", "-Lnative=/root/.xwin/sdk/lib/um/x86_64", "-Lnative=/root/.xwin/sdk/lib/ucrt/x86_64"]' > .cargo/config.toml
-
 
 # Set up xwin (adjust paths as necessary)
 RUN mkdir -p /root/.xwin
