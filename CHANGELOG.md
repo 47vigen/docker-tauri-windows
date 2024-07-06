@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.12.0...v1.13.0) (2024-07-06)
+
+
+### Features
+
+* comment push ([919f74f](https://github.com/47vigen/docker-tauri-windows/commit/919f74f3938222ae58c0a67b3d5ff68a1b6cc65f))
+
 # [1.12.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.11.0...v1.12.0) (2024-07-06)
 
 
