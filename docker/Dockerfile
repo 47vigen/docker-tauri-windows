@@ -49,6 +49,7 @@ WORKDIR /project
 
 # Create temp project
 RUN pnpm create tauri-app . -y --beta -f -t react-ts -m pnpm
+RUN sed '4s/.*/  "identifier": "com.vigen.temp",/' ./src-tauri/tauri.conf.json > temp.json && mv temp.json ./src-tauri/tauri.conf.json
 
 # Ensure .cargo folder exists
 RUN mkdir -p .cargo
