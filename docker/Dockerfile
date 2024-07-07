@@ -67,4 +67,4 @@ RUN --mount=type=cache,id=pnpm,target=/project/.pnpm-store pnpm install
 RUN --mount=type=cache,id=cargo,target=/root/.cargo/registry pnpm tauri build --target x86_64-pc-windows-msvc --verbose --ci
 
 # Remove unsed files
-RUN ls -la && find . -mindepth 1 -maxdepth 1 ! -name '.xwin-cache' ! -name '.cargo' -exec rm -rf {} +
+# RUN ls -la && find . -mindepth 1 -maxdepth 1 ! -name '.xwin-cache' ! -name '.cargo' -exec rm -rf {} +
