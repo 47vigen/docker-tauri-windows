@@ -39,8 +39,16 @@ RUN rustup target add x86_64-pc-windows-msvc
 # Install xwin
 RUN cargo install xwin
 
+# Configure pnpm
+RUN npm i -g pnpm
+RUN pnpm config set store-dir .pnpm-store
+
+
 # Set the WORKDIR to your project directory
 WORKDIR /project
+
+# Create temp project
+RUN pnpm create tauri-app . -y --beta -f -t react-ts -m pnpm
 
 # Ensure .cargo folder exists
 RUN mkdir -p .cargo
@@ -52,6 +60,11 @@ RUN echo '[target.x86_64-pc-windows-msvc]\nlinker = "lld"\nrustflags = ["-Lnativ
 RUN mkdir -p /root/.xwin
 RUN xwin --accept-license splat --output /root/.xwin || xwin --accept-license splat --output /root/.xwin --disable-symlinks 
 
-# Configure pnpm
-RUN npm i -g pnpm
-RUN pnpm config set store-dir .pnpm-store
+# Install node packages
+RUN --mount=type=cache,id=pnpm,target=/project/.pnpm-store pnpm install
+
+# Build your project
+RUN --mount=type=cache,id=cargo,target=/root/.cargo/registry pnpm tauri build --target x86_64-pc-windows-msvc --verbose --ci
+
+# Remove unsed files
+RUN ls -la && find . -mindepth 1 -maxdepth 1 ! -name '.xwin-cache' ! -name '.cargo' -exec rm -rf {} +
