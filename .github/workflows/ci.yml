@@ -13,15 +13,26 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Semver
-    env:
     permissions:
-      contents: read
-      packages: write
-      id-token: write
+      actions: write
       attestations: write
+      checks: write
+      contents: write
+      deployments: write
+      discussions: write
+      id-token: write
+      issues: write
+      packages: write
+      pages: write
+      pull-requests: write
+      repository-projects: write
+      security-events: write
+      statuses: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Docker meta
         id: meta
