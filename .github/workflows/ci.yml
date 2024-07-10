@@ -14,8 +14,6 @@ jobs:
     environment:
       name: Semver
     env:
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     permissions:
       contents: read
       packages: write
@@ -24,8 +22,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
       - name: Docker meta
         id: meta
