@@ -1,3 +1,12 @@
+# [1.20.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.19.0...v1.20.0) (2024-07-10)
+
+
+### Features
+
+* update ([5185bab](https://github.com/47vigen/docker-tauri-windows/commit/5185baba532300089d7c0f6a1e1c53b163e8a141))
+* update ([11f673b](https://github.com/47vigen/docker-tauri-windows/commit/11f673b738e472287e275967c5c1b9652e2aac8a))
+* update ([b229751](https://github.com/47vigen/docker-tauri-windows/commit/b2297517dd5d800221185737a0da176b8cbac610))
+
 # [1.19.0](https://github.com/47vigen/docker-tauri-windows/compare/v1.18.0...v1.19.0) (2024-07-10)
 
 
