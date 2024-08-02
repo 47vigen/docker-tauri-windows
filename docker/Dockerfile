@@ -1,5 +1,5 @@
 # Build stage
-FROM node:latest
+FROM node:21
 
 # Avoid prompts from apt
 ENV DEBIAN_FRONTEND=noninteractive
@@ -15,7 +15,6 @@ RUN apt-get update && apt-get install -y \
   wget \
   file \
   unzip \
-  llvm-lib \
   mingw-w64 \
   apt-utils \
   libxdo-dev \
