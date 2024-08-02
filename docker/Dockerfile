@@ -15,12 +15,14 @@ RUN apt-get update && apt-get install -y \
   wget \
   file \
   unzip \
+  llvm-lib \
   mingw-w64 \
   apt-utils \
   libxdo-dev \
   libssl-dev \
   libudev-dev \
   librsvg2-dev \
+  gcc-mingw-w64 \
   ca-certificates \
   build-essential \
   libwebkit2gtk-4.1-dev \
